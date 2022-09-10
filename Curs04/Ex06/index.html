@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css">
+</head>
+
+<body>
+
+    <h1>New Address</h1>
+
+    <p><img src="./images/new_address.jpg" alt="adress logo"></p>
+
+    <p> <b>Please provide a valid address</b>, otherwise we will not be able to send your stuff.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe magni labore blanditiis, repudiandae impedit facere consequatur omnis dolorum vel praesentium eveniet nobis minima suscipit cum et beatae sint ex mollitia?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia deleniti unde quos culpa ratione iure iste, suscipit magni quisquam sint cum. Nemo autem nobis eius porro asperiores eos ullam alias.</p>
+
+    <h2>Useful links</h2>
+
+    <ul>
+        <li><a target="_blank" title="https://www.google.com/maps" href="https://www.google.com/maps">https://www.google.com/maps</a></li>
+
+        <li>
+            <a target="_blank" title="https://www.coduripostale.com" href="https://www.coduripostale.com">https://www.coduripostale.com</a>
+        </li>
+
+    </ul>
+
+    <h2>Address Form</h2>
+
+    <form>
+        <fieldset>
+            <legend>Address Information:</legend>
+
+            <p>Title:
+                <label for="male">Mr</label>
+                <input value="male" type="radio" name="gender" id="male" checked>
+
+                <label for="female">Ms</label>
+                <input value="female" type="radio" name="gender" id="female">
+
+                <label for="na">Unspecified</label>
+                <input value="na" type="radio" name="gender" id="na">
+
+            </p>
+
+            <label for="name">*Name</label>
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <br>
+            <label for="surname">*Surname</label>
+            <input type="text" name="surname" id="surname" placeholder="Surname" required>
+            <br>
+            <label for="phone">*Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone" required>
+            <br>
+            <label for="address1">*Address Line 1</label>
+            <input type="text" name="address1" id="address1" placeholder="Address Line 1" required>
+            <br>
+            <label for="address2">Address Line 2</label>
+            <input type="text" name="address2" id="address2" placeholder="Address Line 2" required>
+            <br>
+            <label for="city">*City</label>
+            <input type="text" name="city" id="city" placeholder="City" required>
+            <br>
+            <label for="state">*State</label>
+            <input type="select" name="state" id="state" placeholder="State" required>
+
+            <br>
+
+            <label for="postcode">*Postcode</label>
+            <input type="number" name="postcode" id="postcode" placeholder="Postcode" required>
+
+            <input type="checkbox" name="gdpr-consent" id="gdpr-consent" required>
+
+            <label for="gdpr-consent">GDPR generic consent?</label>
+            <br>
+            <button type="submit" name="submit" id="submit">Submit</button> <br>
+            <button name="create-account" id="create-account">Create Account</button>
+
+            <button name="reset" type="reset" id="reset">Reset</button>
+
+
+        </fieldset>
+    </form>
+
+
+
+    <div class="pixeltab-host" id="html01-04-06"></div>
+    <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
+</body>
+
+</html>

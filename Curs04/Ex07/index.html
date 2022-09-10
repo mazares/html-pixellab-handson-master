@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css">
+</head>
+
+<form>
+
+    <p>
+        <a title="Home" href="">Home</a> *
+        <a title="Place Order" href=""><b>Place Order</b></a> *
+        <a title="Customer Service" href="">Customer Service</a> *
+        <a title="Contact" href="">Contact</a> *
+    </p>
+
+    <br>
+
+    <h1>Place order</h1>
+
+    <p>This is the <b>guest checkout</b>, thank you for your order!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit itaque exercitationem, incidunt repudiandae veniam, unde suscipit voluptas facilis cupiditate tempore minus optio. Aliquam dolores non reprehenderit nemo at. Aliquid, tenetur.</p>
+
+    <h2>Products</h2>
+
+    <p>
+        <img src="./images/mouse.jpg" alt="mouse svg">
+        <a title="sterge" href="">Sterge</a> <a title="editeaza" href="">Editeaza</a>
+    </p>
+
+
+
+    <hr>
+
+    <p>
+        <img src="./images/extension_chord.jpg" alt="prelungitor">
+        <a title="sterge" href="">Sterge</a> <a title="editeaza" href="">Editeaza</a>
+
+    </p>
+
+
+
+
+
+    <hr>
+
+    <p>
+        <img src="./images/phone.jpg" alt="phone">
+        <a title="sterge" href="">Sterge</a> <a title="editeaza" href="">Editeaza</a>
+    </p>
+
+
+
+    <hr>
+
+    <h2>Order Now</h2>
+
+    <ol>
+        <p>On our website <i>no account is needed</i>.</p>
+
+        <li>First we need some info about yourself. Don’t forget to provide a phone.</li>
+
+        <li>Then we need your real shipping address.</li>
+
+        <li>Finally, your credit card information.</li>
+    </ol>
+
+
+    <!-- form de aici -->
+
+
+
+
+    <form>
+        <fieldset>
+            <legend>Personal Information:</legend>
+            <p>Title:
+                <label for="male">Mr</label>
+                <input value="male" type="radio" name="gender" id="male" checked>
+
+                <label for="female">Ms</label>
+                <input value="female" type="radio" name="gender" id="female">
+
+                <label for="na">Unspecified</label>
+                <input value="na" type="radio" name="gender" id="na">
+
+            </p>
+
+            <label for="name">*Name</label>
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <br>
+            <label for="surname">*Surname</label>
+            <input type="text" name="surname" id="surname" placeholder="Surname" required>
+            <br>
+            <label for="email">*Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <br>
+            <label for="phone">*Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone" required>
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Address:</legend>
+
+            <label for="address-name">*Name</label>
+            <input type="text" name="address-name" id="address-name" placeholder="Name" required>
+            <br>
+            <label for="address-surname">*Surname</label>
+            <input type="text" name="address-surname" id="address-surname" placeholder="Surname" required>
+            <br>
+            <label for="address-phone">*Phone</label>
+            <input type="tel" name="address-phone" id="address-phone" placeholder="Phone" required>
+            <br>
+            <label for="address1">*Address Line 1</label>
+            <input type="text" name="address1" id="address1" placeholder="Address Line 1" required>
+            <br>
+            <label for="address2">Address Line 2</label>
+            <input type="text" name="address2" id="address2" placeholder="Address Line 2" required>
+            <br>
+            <label for="city">*City</label>
+            <input type="text" name="city" id="city" placeholder="City" required>
+            <br>
+            <label for="state">*State</label>
+            <select type="undefined" value="state" name="state" id="state" placeholder="State" required> 
+              <option value="westeros">Westeros</option>
+              <option value="the-north">The North</option>
+              <option value="davos">Davos</option>
+            </select>
+
+            <br>
+
+            <label for="postcode">*Postcode</label>
+            <input type="text" name="postcode" id="postcode" placeholder="Postcode" required>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Card Information:</legend>
+            <label for="card-number">*Card Number</label>
+            <br>
+            <input type="text" name="card-number" id="card-number" placeholder="Card Number" required>
+
+            <br>
+
+            <label for="card-name">*Name on Card</label>
+
+            <br>
+
+            <input type="text" name="card-name" id="card-name" placeholder="Name on card" required>
+
+            <br>
+
+            <label for="card-expiry-month">*Expiry Month</label>
+            <select type="undefined" name="card-expiry-month" id="card-expiry-month" required>
+              <option value="january">January</option>
+              <option value="february">February</option>
+              <option value="march">March</option>
+            </select>
+
+            <label for="card-expiry-year">*Expiry Month</label>
+            <select type="undefined" name="card-expiry-year" id="card-expiry-year" required>
+<option value="1200">1200</option>
+<option value="1201">1201</option>
+<option value="1202">1202</option>
+            </select>
+
+            <br>
+
+            <label for="card-cvv">*CVV</label>
+            <input type="text" name="card-cvv" id="card-cvv" placeholder="CVV" required>
+
+            <br>
+
+            <p><em>We do not store credit card information!</em></p>
+
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend>Form Controls:</legend>
+
+            <input type="checkbox" name="terms" id="terms" required>
+
+            <label for="terms">*You are required to agree to the <a title="terms and conditions" href="">terms and conditions</a></label>
+            <br>
+            <input type="checkbox" name="subscribe" id="subscribe" required>
+
+            <label for="subscribe">Can we send you emails?</label>
+            <br>
+            <input type="checkbox" name="gdpr-consent" id="gdpr-consent" required>
+
+            <label for="gdpr-consent">GDPR generic consent?</label>
+            <br>
+            <button type="submit" name="submit" id="submit">Submit</button> <br>
+            <button name="create-account" id="create-account">Create Account</button>
+
+            <button name="reset" type="reset" id="reset">Reset</button>
+
+        </fieldset>
+
+    </form>
+
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aperiam alias explicabo eum voluptate necessitatibus? Inventore maiores adipisci tenetur consequatur tempore aperiam, dolorum ullam nesciunt, hic alias blanditiis? Odio, quae.</p>
+
+    <br>
+
+    <p>
+        <a title="Home" href="">Home</a> *
+        <a title="Place Order" href=""><b>Place Order</b></a> *
+        <a title="Customer Service" href="">Customer Service</a> *
+        <a title="Contact" href="">Contact</a> *
+    </p>
+
+
+
+    <div class="pixeltab-host" id="html01-04-07"></div>
+    <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
+    </body>
+
+</html>
