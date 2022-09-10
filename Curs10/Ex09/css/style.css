@@ -1,0 +1,31 @@
+/* add code here */
+
+
+/* add code here */
+
+h1 {
+    color: red;
+}
+
+#header h1 {
+    padding: 5px;
+    color: green;
+    text-decoration: underline green;
+}
+
+#container p {
+    text-decoration: underline;
+    font-size: 25px;
+    font-style: italic;
+    color: purple;
+}
+
+
+/* Titlul sa fie verde, subliniat cu o linie verde  si cu un padding de 5px 
+Paragraful sa aiba marimea fontului de 25px, italic si culoarea mov
+ */
+
+.para {
+    text-decoration: none;
+    color: blueviolet;
+}

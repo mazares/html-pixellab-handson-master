@@ -1,0 +1,35 @@
+.my-first-list a {
+    display: block;
+}
+
+.my-first-list a::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: purple;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+.my-first-list a::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.my-second-list {
+    display: block;
+}
+
+.my-second-list::before {
+    display: inline-block;
+    content: "";
+}
+
+.my-second-list::after {
+    content: "";
+    display: inline-block;
+}
